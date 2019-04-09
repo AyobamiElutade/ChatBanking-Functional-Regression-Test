@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Whatsapp Dashboard Suite]">
+  <test thread-count="5" name="Smoke Test(failed)">
+    <classes>
+      <class name="LoginTests.IncorrectUsername">
+        <methods>
+          <include name="successfulLogin"/>
+          <include name="closePage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- LoginTests.IncorrectUsername -->
+      <class name="LoginTests.BlankCredentials">
+        <methods>
+          <include name="successfulLogin"/>
+          <include name="closePage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- LoginTests.BlankCredentials -->
+      <class name="LoginTests.CorrectCredentials">
+        <methods>
+          <include name="setUp"/>
+          <include name="successfulLogin"/>
+          <include name="closePage"/>
+        </methods>
+      </class> <!-- LoginTests.CorrectCredentials -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Whatsapp Dashboard Suite] -->

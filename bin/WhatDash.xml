@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Whatsapp Dashboard Suite" parallel="false">
+  <test name="Smoke Test">
+    <classes>
+      <class name="LoginFunctionTests.IncorrectPassword"/>
+      <class name="LoginFunctionTests.IncorrectUsername"/>
+      <class name="LoginFunctionTests.CorrectCredentials"/>
+      <class name="LoginFunctionTests.BlankCredentials"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
