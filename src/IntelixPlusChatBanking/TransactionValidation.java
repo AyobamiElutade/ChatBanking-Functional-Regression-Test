@@ -14,7 +14,7 @@ public class TransactionValidation { //Class for Validating Pin Correctness
 	String baseURL = "https://chatbanking.firstbanknigeria.com/whatsappWebApp/account/balance/43ba7abf-de18-4ef4-b1df-0898f6c2d30f";
 	String FirstDigitPin=  "2";
 	String SecondDigitPin= "9";
-	String ThirdDigitPin=  "1";
+	String ThirdDigitPin=  "0";
 	String FourthDigitPin= "7";
 	
     
